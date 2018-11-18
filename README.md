@@ -82,15 +82,15 @@ map :: (a->b) -> [a] -> [b]
 
 # Etap 6: integracja
 
-Zdefiniuj interakcję typu `Interaction` w oparciu o powyzsze funkcje. Opakuj ją w `resettable` i `withStartScreen`
+Zdefiniuj interakcję typu `Interaction` w oparciu o powyższe funkcje. Opakuj ją w `resettable` i `withStartScreen`
 
 # Etap 7: profit
 
-Ostatni brakujacy element to warunki wygranej. Zdefiniuj funkcję
+Ostatni brakujący element to warunki wygranej. Zdefiniuj funkcję
 
 ```haskell
 isWinning :: State -> Bool
 ```
 
-dającą `True` gdy wszystkie skrzynie są na polach `Storage`. Moze tu się przydać funkcja pomocnicza `allList :: [Bool] -> Bool`
+dającą `True` gdy wszystkie skrzynie są na polach `Storage`. Może tu się przydać funkcja pomocnicza `allList :: [Bool] -> Bool`
 Uzyj tej funkcji w `draw` (komunikat o wygranej) oraz `handleEvent` (inna obsługa zdarzeń po wygranej).
