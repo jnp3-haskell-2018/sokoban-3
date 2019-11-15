@@ -92,5 +92,8 @@ Ostatni brakujący element to warunki wygranej. Zdefiniuj funkcję
 isWinning :: State -> Bool
 ```
 
-dającą `True` gdy wszystkie skrzynie są na polach `Storage`. Może tu się przydać funkcja pomocnicza `allList :: [Bool] -> Bool`
-Uzyj tej funkcji w `draw` (komunikat o wygranej) oraz `handleEvent` (inna obsługa zdarzeń po wygranej).
+dającą `True` gdy wszystkie skrzynie są na polach `Storage`. Może tu się przydać funkcja pomocnicza 
+```haskell
+allList :: [Bool] -> Bool
+```
+Użyj tej funkcji w `draw` (komunikat o wygranej) oraz `handleEvent` (inna obsługa zdarzeń po wygranej).
