@@ -82,7 +82,7 @@ map :: (a->b) -> [a] -> [b]
 
 # Etap 6: integracja
 
-Zdefiniuj interakcję typu `Interaction` w oparciu o powyższe funkcje. Opakuj ją w `resettable` i `withStartScreen`
+Zdefiniuj interakcję typu `Activity` w oparciu o powyższe funkcje. Opakuj ją w `resettable` i `withStartScreen`
 
 # Etap 7: profit
 
