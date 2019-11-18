@@ -15,7 +15,7 @@ Zdefiniuj typ stanu gry `State`, przechowujący
 * wybrany z góry kierunek
 * pozycje skrzyń odczytane z definicji poziomu
 
-Ostatni punkt jest nieco kontrowersyjny, ale możemy ząłozyc, ze poziom, jak poprzendio mieści się w zakresie współrzędnych `[-10..10]`.
+Ostatni punkt jest nieco kontrowersyjny, ale możemy ząłozyc, ze poziom, jak poprzednio mieści się w zakresie współrzędnych `[-10..10]`.
 
 Obliczoną wartość `initialBoxes` mozna przetestować np. tak:
 
