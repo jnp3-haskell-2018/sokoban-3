@@ -46,7 +46,7 @@ addBoxes :: [Coord] -> Maze -> Maze
 **Bonus:** złożenie funkcji jest reprezentowane w Haskellu przez operator `.`:
 
 ```haskell
-(:) :: (b->c) -> (a->b) -> (a->c)
+(.) :: (b->c) -> (a->b) -> (a->c)
 (f . g) x = f(g x)
 ```
 
